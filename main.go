@@ -21,6 +21,7 @@ type DatabaseConfiguration struct {
 }
 
 func main() {
+	fmt.Println("test viper")
 	viper.SetConfigName("config")
 	viper.AddConfigPath(".")
 	if err := viper.ReadInConfig(); err != nil {
