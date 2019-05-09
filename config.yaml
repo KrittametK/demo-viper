@@ -1,0 +1,9 @@
+app:
+  env:  "development"
+  port: 8080
+  debug: true
+mongodb:
+  connection: "mongodb://r1.example.net:27017,r2.example.net:27017/"
+log:
+  level: "debug"
+  format: "json"
